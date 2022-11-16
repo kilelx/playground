@@ -3,8 +3,7 @@ const body = document.querySelector('body');
 const title = document.querySelector("section h1");
 
 window.addEventListener("scroll", () => {
-    // body.style.transform = `translateY(${0+(scrollY*0.1)})`;
-    title.style.transform = `translate(-50%, -${50+(scrollY)*0.1}%)`
+    title.style.transform = `translate(-50%, -${50+(scrollY)*0.15}%)`
 })
 
 window.addEventListener("click", (e) => {

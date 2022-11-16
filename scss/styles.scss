@@ -14,7 +14,6 @@ html {
 
 body {
     font-family: 'Playfair Display', serif;
-    transition: transform .05s;
 }
 
 .sct-container {
@@ -42,7 +41,6 @@ section {
             font-size: 16vw;
             width: 100vw !important;
             opacity: .25;
-            z-index: -10;
             font-style: italic;
             position: absolute;
             top: 50%;
