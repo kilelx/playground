@@ -20,5 +20,3 @@ const osberver = new IntersectionObserver(displayRadius, options);
 sections.forEach(section => {
     osberver.observe(section);
 })
-
-// clientY : hauteur de la souris lors d'un évènement
