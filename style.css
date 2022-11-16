@@ -65,7 +65,7 @@ section .transition {
   transition: padding 0.3s ease-in-out;
 }
 section .transition:hover {
-  padding-bottom: 3rem;
+  padding-bottom: 3.25rem;
 }
 
 /*# sourceMappingURL=style.css.map */
